@@ -1,0 +1,8 @@
+﻿Front;Back;Tags;Type;Options
+The capital of {{c1::Germany::country}} is {{Berlin}}.;Berlin has been the capital again since 1990.;geography;Cloze;
+What is the capital of France?;Paris;geography;Input;Paris, France
+Which device works on OSI layer 3?;Router;networking;Choice;Switch|Hub|Repeater
+What does **DNS** stand for?;Domain Name System;networking;Basic;
+Resistance is measured in {{ohms}}.;Unit: Ω;physics;;
+Match the protocols to their ports.;HTTP => 80 | HTTPS => 443 | SSH => 22;networking;Match;25|3389
+Which capital belongs to which country?;Germany => Berlin | France => Paris | Italy => Rome;geography;;

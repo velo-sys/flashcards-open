@@ -1,0 +1,11 @@
+Front;Back;Tags
+"What is **Größe** (ß/ä/ö/ü)?";"A unit of measure – “quotation marks” & € 5
+- item 1
+- item 2";basics
+OSI layer 3?;"Network layer
+
+![](Network diagram.png)";networking
+Code?;"`ls -la` and
+```bash
+echo hi
+```";linux

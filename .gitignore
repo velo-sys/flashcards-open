@@ -1,0 +1,30 @@
+*.iml
+.gradle/
+**/local.properties
+/.idea/
+.vscode/
+.claude/
+.DS_Store
+build/
+/captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+*.keystore
+*.jks
+
+# Signing – never in the repo
+keystore.properties
+*.p12
+
+# Build artifacts
+*.apk
+*.aab
+/app/release/
+gradle-daemon-jvm.properties
+
+# Logs and scratch files
+*.log
+*.hprof
+*.orig
+*.rej

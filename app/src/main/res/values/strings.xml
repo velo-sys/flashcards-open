@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Flashcards Open</string>
+
+    <!-- Actions -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_close">Close</string>
+    <string name="action_cram">Cram</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_done">Done</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_expand">Expand/collapse</string>
+    <string name="action_export_csv">Export as CSV</string>
+    <string name="action_more">More</string>
+    <string name="action_move">Move</string>
+    <string name="action_move_down">Move down</string>
+    <string name="action_move_up">Move up</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_save">Save</string>
+    <string name="action_select">Select</string>
+    <string name="action_study">Study</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="today">today</string>
+
+    <!-- Counters -->
+    <string name="count_new">new</string>
+    <string name="count_learn">learning</string>
+    <string name="count_due">due</string>
+    <string name="count_total" tools:ignore="PluralsCandidate">%1$d total</string>
+
+    <!-- Home -->
+    <string name="topics_title">Topics</string>
+    <string name="presets_title">Presets</string>
+    <string name="study_all_due">Study everything due</string>
+    <string name="home_empty">No topics yet. Create one, or use the ⋮ menu to import a CSV file, a folder or a ZIP archive (subfolder = topic, CSV file = deck).</string>
+    <plurals name="topic_deck_count">
+        <item quantity="one">%1$d deck</item>
+        <item quantity="other">%1$d decks</item>
+    </plurals>
+    <plurals name="preset_deck_count">
+        <item quantity="one">%1$d deck</item>
+        <item quantity="other">%1$d decks</item>
+    </plurals>
+
+    <!-- Topics -->
+    <string name="topic_new">New topic</string>
+    <string name="topic_new_ellipsis">New topic …</string>
+    <string name="topic_edit">Edit topic</string>
+    <string name="topic_study">Study topic</string>
+    <string name="topic_empty">No decks in this topic yet. Create one or import a CSV file.</string>
+    <string name="topic_delete_title">Delete topic?</string>
+    <plurals name="topic_delete_text">
+        <item quantity="one">“%1$s” with %2$d deck and all its cards will be deleted permanently.</item>
+        <item quantity="other">“%1$s” with %2$d decks and all their cards will be deleted permanently.</item>
+    </plurals>
+    <string name="label_name">Name</string>
+    <string name="label_emoji_optional">Emoji (optional)</string>
+    <string name="label_color">Color</string>
+    <string name="search_decks">Search decks …</string>
+    <string name="sort_manual">Manual</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_due">Due</string>
+    <string name="sort_recent">Recent</string>
+    <string name="select_all_in_topic">All in topic</string>
+    <string name="selection_count" tools:ignore="PluralsCandidate">%1$d selected</string>
+    <plurals name="selection_decks">
+        <item quantity="one">%1$d deck ·</item>
+        <item quantity="other">%1$d decks ·</item>
+    </plurals>
+
+    <!-- Decks -->
+    <string name="deck_new">New deck</string>
+    <string name="deck_rename">Rename deck</string>
+    <plurals name="deck_move_title">
+        <item quantity="one">Move %1$d deck to …</item>
+        <item quantity="other">Move %1$d decks to …</item>
+    </plurals>
+    <plurals name="deck_delete_title">
+        <item quantity="one">Delete deck?</item>
+        <item quantity="other">Delete %1$d decks?</item>
+    </plurals>
+    <plurals name="deck_delete_text">
+        <item quantity="one">The deck and all of its cards (%2$d) will be deleted permanently, study progress included.</item>
+        <item quantity="other">%1$d decks and all of their cards (%2$d) will be deleted permanently, study progress included.</item>
+    </plurals>
+    <string name="deck_reset">Reset progress</string>
+    <string name="deck_reset_text">Every card in this deck becomes “new” again. The study progress is lost.</string>
+    <string name="deck_reimport">Re-import CSV</string>
+    <string name="deck_new_limit">New cards per day</string>
+    <string name="deck_limit_line">New cards per day: %1$d %2$s</string>
+    <string name="deck_limit_global">(global)</string>
+    <string name="deck_limit_hint">Leave empty to use the global setting (%1$d)</string>
+    <plurals name="deck_stats_line">
+        <item quantity="one">%1$d card · %2$d never studied</item>
+        <item quantity="other">%1$d cards · %2$d never studied</item>
+    </plurals>
+    <string name="deck_no_cards">No cards found.</string>
+    <string name="search_cards">Search cards …</string>
+    <string name="cram_tag_filter">Cram only cards with tag</string>
+    <string name="tag_all">all</string>
+
+    <!-- Cards -->
+    <string name="card_add">Add card</string>
+    <string name="card_edit">Edit card</string>
+    <string name="card_delete_title">Delete card?</string>
+    <string name="card_delete_text">The card and its study progress will be deleted permanently.</string>
+    <string name="card_markdown_hint">Markdown is allowed. Images via ![](image.png), [[image.png]] or &lt;img src=\"image.png\"&gt;.</string>
+    <string name="card_status_new">new</string>
+    <string name="card_status_due">due</string>
+    <string name="card_status_in">in %1$s</string>
+    <string name="label_front">Front</string>
+    <string name="label_front_cloze">Text with gaps</string>
+    <string name="label_front_question">Question</string>
+    <string name="label_front_task">Task</string>
+    <string name="label_back">Back</string>
+    <string name="label_back_note">Note (optional)</string>
+    <string name="label_back_expected">Expected answer</string>
+    <string name="label_back_correct">Correct answer</string>
+    <string name="card_type">Card type</string>
+    <string name="card_hint_basic">Question on the front, answer on the back – flip it over and grade yourself.</string>
+    <string name="card_hint_cloze">Select what should be guessed and tap “Insert gap”, or write {{…}} yourself.</string>
+    <string name="card_hint_input">The answer is typed in and compared against the expected one.</string>
+    <string name="card_hint_choice">The correct answer goes on top, the wrong ones show up as buttons next to it.</string>
+    <string name="card_hint_match">Enter terms and targets as pairs – they are asked in shuffled order.</string>
+    <string name="cloze_insert_gap">Insert gap</string>
+    <string name="match_pairs">Pairs</string>
+    <string name="match_item">Term</string>
+    <string name="match_target">Target</string>
+    <string name="match_add_pair">Add pair</string>
+    <string name="options_input">Other accepted answers</string>
+    <string name="options_choice">Wrong answers</string>
+    <string name="options_match">Extra wrong targets</string>
+    <string name="option_add">Add entry</string>
+    <string name="action_remove">Remove</string>
+    <string name="card_need_text">Fill in the front or the back</string>
+    <string name="card_need_gap">Mark at least one gap</string>
+    <string name="card_need_answer">Fill in the answer</string>
+    <string name="card_need_wrong">Enter at least one wrong answer</string>
+    <string name="card_need_pair">Enter at least one complete pair</string>
+    <string name="label_tags">Tags (separated by spaces or commas)</string>
+    <string name="label_new_per_day">New cards per day</string>
+    <string name="image_missing">Missing image: %1$s</string>
+
+    <!-- Studying -->
+    <string name="study_show_answer">Show answer</string>
+    <string name="study_remaining" tools:ignore="PluralsCandidate">%1$d left</string>
+    <string name="study_cram_prefix">Cram</string>
+    <string name="study_done">All done!</string>
+    <plurals name="study_done_count">
+        <item quantity="one">%1$d card graded.</item>
+        <item quantity="other">%1$d cards graded.</item>
+    </plurals>
+    <string name="study_nothing_due">Nothing left due today</string>
+    <string name="study_no_cards">No cards</string>
+    <string name="study_keys_hint">Tap / space / Ⓐ = flip · 1–4 or Ⓑ Ⓧ Ⓐ Ⓨ = grade · Select = back</string>
+    <string name="study_check">Check</string>
+    <string name="study_input_label">Type your answer</string>
+    <string name="study_expected">Expected answer</string>
+    <string name="study_result_correct">Correct</string>
+    <string name="study_result_partial">Almost</string>
+    <string name="study_result_wrong">Wrong</string>
+    <string name="study_keys_hint_three">Tap / space / Ⓐ = flip · 1–3 or Ⓑ Ⓧ Ⓨ = grade · Select = back</string>
+    <string name="study_keys_hint_input">Enter = check · then 1–3 or Ⓑ Ⓧ Ⓨ = grade</string>
+    <string name="study_keys_hint_choice">1–9 or D-pad + Ⓐ = answer · then 1–3 or Ⓑ Ⓧ Ⓨ = grade</string>
+    <string name="study_keys_hint_match">1–9 or D-pad + Ⓐ = assign · Ⓐ checks once every term is taken · then 1–3 or Ⓑ Ⓧ Ⓨ = grade</string>
+    <string name="study_match_targets">Targets</string>
+    <string name="study_match_open">open</string>
+    <string name="study_match_solution">Correct: %1$s</string>
+    <string name="study_match_result">Matched correctly: %1$d / %2$d</string>
+    <string name="grade_wrong">Wrong</string>
+    <string name="grade_partial">Partly</string>
+    <string name="grade_correct">Correct</string>
+    <string name="rating_again">Again</string>
+    <string name="rating_hard">Hard</string>
+    <string name="rating_good">Good</string>
+    <string name="rating_easy">Easy</string>
+
+    <!-- Combined study -->
+    <string name="combo_title">Combined study</string>
+    <string name="combo_mix_mode">Mix mode</string>
+    <string name="mix_mixed">Fully shuffled</string>
+    <string name="mix_by_deck">One deck after another</string>
+    <string name="combo_session_limit">New cards in this session (optional)</string>
+    <string name="combo_session_limit_hint">Overall cap on top of the per-deck limit</string>
+    <string name="combo_topic_line" tools:ignore="PluralsCandidate">%1$d of %2$d decks selected</string>
+    <string name="search_topics_decks">Search topics and decks …</string>
+    <string name="preset_save_as">Save as preset</string>
+    <string name="preset_update">Update preset</string>
+    <string name="preset_rename">Rename preset</string>
+    <string name="preset_edit_decks">Edit selection</string>
+    <string name="preset_delete_title">Delete preset?</string>
+    <string name="preset_delete_text">The preset “%1$s” will be deleted. The decks themselves stay.</string>
+
+    <!-- Import -->
+    <string name="import_csv">Import CSV</string>
+    <string name="import_folder">Import folder</string>
+    <string name="import_zip">Import ZIP</string>
+    <string name="import_preview_title">Import preview</string>
+    <string name="import_file">File</string>
+    <string name="import_encoding">Encoding</string>
+    <string name="import_delimiter">Delimiter</string>
+    <string name="import_header">Header row detected</string>
+    <string name="import_types">Card types</string>
+    <plurals name="import_types_unknown">
+        <item quantity="one">%1$d row with an unknown type – type inferred from the content</item>
+        <item quantity="other">%1$d rows with an unknown type – type inferred from the content</item>
+    </plurals>
+    <plurals name="import_match_without_pairs">
+        <item quantity="one">%1$d match card without pairs (expected: “A =&gt; 1 | B =&gt; 2”) – becomes a basic card</item>
+        <item quantity="other">%1$d match cards without pairs (expected: “A =&gt; 1 | B =&gt; 2”) – become basic cards</item>
+    </plurals>
+    <string name="card_type_basic">Basic</string>
+    <string name="card_type_cloze">Cloze</string>
+    <string name="card_type_input">Input</string>
+    <string name="card_type_choice">Choice</string>
+    <string name="card_type_match">Match</string>
+    <string name="import_card_count">Cards</string>
+    <string name="import_target_topic">Target topic</string>
+    <string name="import_choose_topic">Choose topic</string>
+    <string name="import_deck_name">Deck name</string>
+    <string name="import_preview_cards">The first few cards</string>
+    <string name="import_no_cards">No cards were found in this file.</string>
+    <string name="import_failed">The file could not be read.</string>
+    <string name="import_diff" tools:ignore="PluralsCandidate">%1$d new, %2$d changed, %3$d removed</string>
+    <string name="import_updates_existing">A deck with this name already exists. It will be updated and the study progress is kept.</string>
+    <string name="import_do">Import</string>
+    <string name="import_update">Update</string>
+    <string name="import_remove_title">Remove cards?</string>
+    <plurals name="import_remove_text">
+        <item quantity="one">%1$d card is no longer part of the new file and will be removed together with its study progress.</item>
+        <item quantity="other">%1$d cards are no longer part of the new file and will be removed together with their study progress.</item>
+    </plurals>
+    <string name="enc_utf8">UTF-8</string>
+    <string name="enc_utf8_bom">UTF-8 with BOM</string>
+    <string name="enc_utf16le">UTF-16 LE</string>
+    <string name="enc_utf16be">UTF-16 BE</string>
+    <string name="enc_cp1252">Windows-1252 (Excel ANSI)</string>
+    <string name="delim_semicolon">Semicolon (;)</string>
+    <string name="delim_comma">Comma (,)</string>
+    <string name="delim_tab">Tab</string>
+    <string name="delim_pipe">Pipe (|)</string>
+    <string name="bulk_scanning">Looking for files …</string>
+    <plurals name="bulk_progress">
+        <item quantity="one">%1$d of %2$d file</item>
+        <item quantity="other">%1$d of %2$d files</item>
+    </plurals>
+    <string name="bulk_done">Import finished</string>
+    <string name="bulk_cancelled">Import cancelled. Decks that were already imported are kept.</string>
+    <string name="bulk_summary_topics">New topics: %1$d</string>
+    <string name="bulk_summary_decks" tools:ignore="PluralsCandidate">Decks: %1$d new, %2$d updated</string>
+    <string name="bulk_summary_cards" tools:ignore="PluralsCandidate">Cards: %1$d new, %2$d changed, %3$d removed</string>
+    <string name="bulk_summary_images">Images: %1$d</string>
+    <string name="bulk_errors" tools:ignore="PluralsCandidate">%1$d errors</string>
+
+    <!-- Statistics -->
+    <string name="stats_title">Statistics</string>
+    <string name="stats_overview">Overview</string>
+    <string name="stats_reviews_today" tools:ignore="PluralsCandidate">Graded today: %1$d</string>
+    <plurals name="stats_reviews_30">
+        <item quantity="one">Last 30 days: %1$d review</item>
+        <item quantity="other">Last 30 days: %1$d reviews</item>
+    </plurals>
+    <string name="stats_states" tools:ignore="PluralsCandidate">Cards: %1$d new · %2$d learning · %3$d in review</string>
+    <string name="stats_reviews_per_day">Reviews per day (30 days)</string>
+    <string name="stats_forecast">Cards due over the next 7 days</string>
+    <string name="stats_max">Maximum: %1$d</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_learning">Studying</string>
+    <string name="settings_new_per_day_hint">Per deck; can be overridden for each deck</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Color scheme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_dynamic_color">Dynamic color (Material You)</string>
+    <string name="settings_font_size">Card font size</string>
+    <string name="settings_font_preview">**Size** over café – “quotation marks” €</string>
+    <string name="settings_backup">Backup</string>
+    <string name="settings_backup_hint">Saves all topics, cards, study progress, presets, settings and images into a single ZIP file.</string>
+    <string name="backup_export">Export backup</string>
+    <string name="backup_import">Restore backup</string>
+    <string name="backup_restore">Replace</string>
+    <string name="backup_import_confirm">All current data will be replaced by the backup. Continue?</string>
+    <string name="settings_images">Images</string>
+    <plurals name="settings_images_info">
+        <item quantity="one">%1$d image, %2$.1f MB</item>
+        <item quantity="other">%1$d images, %2$.1f MB</item>
+    </plurals>
+    <string name="settings_images_delete">Delete all</string>
+    <string name="settings_images_delete_confirm">Delete every stored image? Cards will show “Missing image” afterwards.</string>
+    <string name="settings_debug">Debug</string>
+    <string name="debug_seed">Generate test data (10×20)</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <!-- Messages -->
+    <string name="error_generic">Error: %1$s</string>
+    <string name="msg_topic_deleted">Topic “%1$s” deleted</string>
+    <plurals name="msg_decks_moved">
+        <item quantity="one">%1$d deck moved to “%2$s”</item>
+        <item quantity="other">%1$d decks moved to “%2$s”</item>
+    </plurals>
+    <plurals name="msg_decks_deleted">
+        <item quantity="one">%1$d deck deleted</item>
+        <item quantity="other">%1$d decks deleted</item>
+    </plurals>
+    <string name="msg_progress_reset">Progress reset</string>
+    <string name="msg_card_added">Card added</string>
+    <string name="msg_export_done">Export saved</string>
+    <string name="msg_import_result" tools:ignore="PluralsCandidate">“%1$s”: %2$d new, %3$d changed, %4$d removed</string>
+    <string name="msg_preset_saved">Preset “%1$s” saved</string>
+    <string name="msg_backup_saved">Backup saved</string>
+    <string name="msg_backup_restored">Backup restored</string>
+    <string name="msg_backup_invalid">This file is not a Flashcards Open backup.</string>
+    <string name="msg_seeded">Test data generated (%1$d ms)</string>
+</resources>
